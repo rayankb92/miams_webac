@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "harukaze";
+  font-family: "backtoschool";
+  src: url("fonts/Harukaze.ttf") format("truetype");
+  src: url("fonts/varsity_regular.ttf") format("truetype");
+}
+
+body {
+  margin: auto;
+  background-size: contain;
+  font-family: "backtoschool";
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.affiche {
+  width: 100%;
+  /* height: 500px; */
+  background-image: url(./image/back.jpg);
+  color: white;
+  background-size: cover;
+  background-position-y: bottom;
+  width: fit-content;
+}
+
+#1 h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+.intro {
+  width: 50%;
+  padding: 40px;
+}
+
+button {
+  background: unset;
+  border-radius: 20px;
+  border: solid 1px white;
+  color: aliceblue;
+}
+span {
+  color: red;
+}
+
+.nosburger {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin-left: 17%;
+}
+.nosburger img {
+  height: 191px;
+  border-radius: 40px;
+  padding: 5px;
+}
+.img1 img {
+  height: 400px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100px;
+  border: black solid 1px;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+.imglay {
+  height: max-content;
+}
+
+.imglay img {
+  height: min-content;
+}
+
+.menubox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.menubox figure {
+  margin: 10px;
+  box-shadow: 5px 5px 10px black;
+  padding: 10px;
+}
+.franchisebc {
+  background-image: url("./image/franchise.jpg");
+  height: 200px;
+}
+
+nav {
+  position: fixed;
+  transition: 0.5s;
+}
+nav h1 {
+  color: white;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.formeg,
+.formd {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 0 auto;
+  border-bottom: solid black 1px;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 66px rgb(197, 54, 54);
+  background-color: white;
+  color: black;
+  overflow: hidden;
+}
+
+.formulaire {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: red;
+  padding: 20px;
+}
+input {
+  border-bottom: 2px solid black;
+  border-top: none;
+  margin: 2px;
+}
+#submit {
+  background-color: black;
+  color: white;
+}
+
+#white {
+  color: white;
+}
+
+.restos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.restos div {
+  box-shadow: 2px 2px 20px gray;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 10px;
+  height: max-content;
+  width: 266px;
+}
+
+#btn {
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 2px;
+  color: black;
+}
+
+.navbar img {
+  height: 50px;
+}
+#kremlin,
+#clichy,
+#asnieres {
+  display: flex;
+  flex-direction: column;
+}
+
+#map1,
+#map2,
+#map3 {
+  display: none;
+}
+
+#btnmap1,
+#btnmap2,
+#btnmap3 {
+  background-color: black;
+  color: red;
+}
