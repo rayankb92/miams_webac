@@ -9,6 +9,7 @@ body {
   margin: auto;
   background-size: contain;
   font-family: "backtoschool";
+  width: 100%;
 }
 a {
   text-decoration: none;
@@ -46,18 +47,19 @@ span {
 
 .nosburger {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
-  width: fit-content;
-  margin-left: 17%;
 }
 .nosburger img {
   height: 191px;
   border-radius: 40px;
   padding: 5px;
 }
-.img1 img {
-  height: 400px;
+
+@media (min-width: 420px) {
+  .img1 img {
+    height: 400px;
+  }
 }
 
 footer {
@@ -76,6 +78,10 @@ footer {
 
 .imglay img {
   height: min-content;
+}
+
+.nosburger img:active {
+  border: solid 3px black;
 }
 
 .menubox {
@@ -105,6 +111,10 @@ nav h1 {
 .flex1 {
   display: flex;
   justify-content: space-around;
+}
+
+.img1 figcaption {
+  background-color: yellow;
 }
 
 .formeg,
